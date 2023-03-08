@@ -1,0 +1,13 @@
+prefix=/Users/ashapondicherry/Documents/GitHub/NFL_Attendence_Prediction/venv
+exec_prefix=/Users/ashapondicherry/Documents/GitHub/NFL_Attendence_Prediction/venv
+libdir=/Users/ashapondicherry/Documents/GitHub/NFL_Attendence_Prediction/venv/lib
+sharedlibdir=/Users/ashapondicherry/Documents/GitHub/NFL_Attendence_Prediction/venv/lib
+includedir=/Users/ashapondicherry/Documents/GitHub/NFL_Attendence_Prediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
